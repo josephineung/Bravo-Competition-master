@@ -1,0 +1,110 @@
+body{
+    background-color: #193441;
+    margin: 0px;
+}
+header nav{
+    background-color: #3E606F;
+    height: 40px;  
+    padding-right: 0px;
+    padding-left:  0px;
+    width: 1020px;
+    white-space: nowrap;
+    margin: 0px auto;
+}
+
+header nav ul {
+    font-family:  Georgia;
+    font-size:  20px;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    white-space: nowrap;
+    text-align: center;
+    
+}
+
+header nav ul li{
+    margin: 0px;
+    display: inline-block;
+    white-space: nowrap;
+    font-family:  Georgia;
+    font-weight:  normal;
+    width:  200px;
+}
+
+header nav ul li a{
+    display: block;
+    white-space: nowrap;
+    font-family:  Georgia;
+    font-weight:  normal;
+    text-decoration: none;
+    padding: 7px 0px 3px 0px;
+    color: #ffffff;
+    margin-left: 0px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border-right: 0px solid white;
+}
+
+
+header nav li:first-child a{
+    border-left: 0px solid white;
+}
+
+header nav ul li a:hover {
+    background: #617F8A;
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #193441;
+}
+header h1{
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    color: #D1DBBD;
+}
+
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#content{
+    margin: 0px auto;
+    background-color: #ffffff;
+    width: 1000px;
+    height: 100%;
+    min-height: 1000px;
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+}
+
+nav li .sublevel{
+    display: none;
+}
+
+nav li:hover .sublevel{
+    display: block;
+    position: absolute;    
+    width: 200px;
+    overflow:  visible;                                      
+}
+
+nav li .sublevel li{
+    background: #3E606F;
+    text-align: center;
+    width: 100%;
+    display:  block;
+}
+
+nav li .sublevel li:hover{
+    background: #617F8A;
+}
+
+.floatingHeader {
+  position: fixed;
+  top: 0;
+  visibility: visible;
+}
