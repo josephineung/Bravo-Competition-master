@@ -1,0 +1,10 @@
+fieldset {
+    display:inline-block;
+    clear: left;
+    float: left;
+    margin: 10px;
+}
+
+.error {
+    color: #f00;
+}

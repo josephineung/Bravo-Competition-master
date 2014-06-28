@@ -63,7 +63,7 @@ header{
 }
 header h1{
     margin: 0px;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
     color: #D1DBBD;
 }
 
@@ -74,11 +74,11 @@ header img{
 }
 #content{
     margin: 0px auto;
-    background-color: #ffffff;
-    width: 1000px;
+    background-color: #154a63;
+    width: 1020px;
     height: 100%;
-    min-height: 1000px;
-    box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+    min-height: 800px;
+
 }
 
 nav li .sublevel{
@@ -103,8 +103,16 @@ nav li .sublevel li:hover{
     background: #617F8A;
 }
 
-.floatingHeader {
-  position: fixed;
-  top: 0;
-  visibility: visible;
-}
+h2, h3, h4, h5, h6 { margin: 0 0 1em }
+h1 { font-family: georgia; font-weight:normal; color: #ffffff;}
+h3 { font-size: 12px; font-family: arial; font-weight:normal; line-height: 20px; color:#ffffff;}
+h4 { font-size: 17px; margin: 0; color: #ffffff; font-family: georgia; font-weight:normal;}
+
+.center { margin-left: auto; margin-right: auto; display: block; clear: both; overflow: hidden; padding: 0 5px; width: 978px; }
+.column3 { margin-left: 30px; margin-right: 30px; padding: 0 5px;
+           width: 25%; overflow: hidden; float: left; display: block; height: 100%; }
+.column2 { margin-left: 30px; margin-right: 30px; margin-bottom: 60px; padding: 0 5px;
+           width: 90%; overflow: hidden; float: left; display: block; height: 400px; border-width: 0 1px}
+
+
+footer.part { padding-top: 20px; margin-bottom: 80px; }
