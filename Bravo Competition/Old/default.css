@@ -1,0 +1,130 @@
+.container {
+    border: 1px #ddd;
+}
+#banner {
+    width: fill-available;
+    height:fit-content;
+    margin: 0px auto; 
+}
+#banner img {
+    width: 100%;
+    max-width: 1000px;
+}
+body{
+    background-color: #193441;
+    margin: 0px;
+}
+header nav{
+    background-color: #3E606F;
+    height: 40px;  
+    padding-right: 0px;
+    padding-left:  0px;
+    width: 1020px;
+    white-space: nowrap;
+    margin: 0px auto;
+}
+
+header nav ul {
+    font-family:  Georgia;
+    font-size:  20px;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    white-space: nowrap;
+    text-align: center;
+    
+}
+
+header nav ul li{
+    margin: 0px;
+    display: inline-block;
+    white-space: nowrap;
+    font-family:  Georgia;
+    font-weight:  normal;
+    width:  200px;
+}
+
+header nav ul li a{
+    display: block;
+    white-space: nowrap;
+    font-family:  Georgia;
+    font-weight:  normal;
+    text-decoration: none;
+    padding: 7px 0px 3px 0px;
+    color: #ffffff;
+    margin-left: 0px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border-right: 0px solid white;
+}
+
+
+header nav li:first-child a{
+    border-left: 0px solid white;
+}
+
+header nav ul li a:hover {
+    background: #617F8A;
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #193441;
+}
+header h1{
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    color: #D1DBBD;
+}
+
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#content{
+    margin: 0px auto;
+    background-color: white;
+    width: 1020px;
+    height: 100%;
+    min-height: 800px;
+
+}
+
+nav li .sublevel{
+    display: none;
+}
+
+nav li:hover .sublevel{
+    display: block;
+    position: absolute;    
+    width: 200px;
+    overflow:  visible;                                      
+}
+
+nav li .sublevel li{
+    background: #3E606F;
+    text-align: center;
+    width: 100%;
+    display:  block;
+}
+
+nav li .sublevel li:hover{
+    background: #617F8A;
+}
+
+h2, h3, h4, h5, h6 { margin: 0 0 1em }
+h1 { font-family: georgia; font-weight:normal; color: black;}
+h3 { font-size: 12px; font-family: arial; font-weight:normal; line-height: 20px; color:black;}
+h4 { font-size: 17px; margin: 0; color: black; font-family: georgia; font-weight:normal;}
+
+.center { margin-left: auto; margin-right: auto; display: block; clear: both; overflow: hidden; padding: 0 5px; width: 978px; }
+.column3 { margin-left: 30px; margin-right: 30px; padding: 0 5px;
+           width: 25%; overflow: hidden; float: left; display: block; height: 100%; }
+.column2 { margin-left: 30px; margin-right: 30px; margin-bottom: 60px; padding: 0 5px;
+           width: 90%; overflow: hidden; float: left; display: block; height: 400px; border-width: 0 1px}
+
+
+footer.part { padding-top: 20px; margin-bottom: 80px; }
